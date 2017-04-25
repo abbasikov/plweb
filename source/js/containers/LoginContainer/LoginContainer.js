@@ -167,7 +167,7 @@ class LoginContainer extends React.Component {
 
                                     <div className="form-group">
                                         <RaisedButton
-                                            label={this.state.isLoading?"":"login"}
+                                            label={this.state.isLoading?"":"login1"}
                                             labelPosition="before"
                                             primary={true}
                                             onTouchTap={(e) => this.onLoginClick(e)}

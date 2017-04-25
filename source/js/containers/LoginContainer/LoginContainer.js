@@ -113,7 +113,7 @@ class LoginContainer extends React.Component {
                 <div className="navbar navbar-inverse">
                     <div className="navbar-header">
                         <a className="navbar-brand" href="index.html">
-                            <div>GirishWeb</div>
+                            <div>PL Web</div>
                         </a>
                     </div>
                 </div>

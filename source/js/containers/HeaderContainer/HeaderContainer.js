@@ -124,7 +124,7 @@ class HeaderContainer extends ClickOutsideMixin {
                                         e.preventDefault();
                                         browserHistory.push(routes.home.childRoutes.main.path);
                                     }}>
-                            <div>GirishWeb</div>
+                            <div>PL Web</div>
                         </a>
 
                         <ul className="nav navbar-nav visible-xs-block">

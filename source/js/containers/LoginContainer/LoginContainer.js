@@ -70,7 +70,6 @@ class LoginContainer extends React.Component {
     }
 
     componentWillUnmount() {
-        console.log('[LoginContainer] component un-mounted');
     }
 
     onLoginClick(e) {
@@ -106,8 +105,6 @@ class LoginContainer extends React.Component {
 
     render() {
 
-        console.log(this.state.usernameError);
-        
         return (
             <div className="login-wrapper">
                 <div className="navbar navbar-inverse">

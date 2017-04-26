@@ -42,7 +42,6 @@ class HeaderContainer extends ClickOutsideMixin {
     }
 
     toggleDropdown(name) {
-        console.log('toggle called');
         if(name === 'course-switch') {
             this.setState({
                 courseSwitchOpen: !this.state.courseSwitchOpen,

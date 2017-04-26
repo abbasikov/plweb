@@ -169,7 +169,7 @@ class LoginContainer extends React.Component {
                                             primary={true}
                                             onTouchTap={(e) => this.onLoginClick(e)}
                                             fullWidth={true}>
-                                            <i className={this.state.isLoading ? "icon-spinner2 spinner":"icon-spinner2 spinner hide"} style={{color:'white'}}></i>
+                                            <i className={this.state.isLoading ? "icon-spinner2 spinner":"icon-spinner2 spinner hide "} style={{color:'white'}}></i>
                                         </RaisedButton>
 
                                     </div>
